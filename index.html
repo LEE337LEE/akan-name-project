@@ -14,7 +14,34 @@
       <h1>What is your Akan Name?</h1>
       <p>Hi there! This application calculates your appropriate Akan name based on your birthday and gender </p>
       <p><strong>Ready? fill in this form and click generate</strong></p>
-      <form class="my form" onsubmit="return getAkanName()">
+      <form class="myform" onsubmit="return getAkanName()">
+        <label for="year-of-birth">
+          Year:
+          <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
+        </label>
+        <label for="month-of-birth">
+          Month:
+          <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
+        </label>
+        <label for="day-of-birth">
+          Day:
+          <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
+        </label>
+        <br>
+        <label for="gender">
+          <p>Select your gender: </p>
+          Male
+          <input id="male-input" type="radio" name="gender" value="male" required>
+          Female
+          <input id="female-input" type="radio" name="gender" value="female" required>
+
+        </label>
+        <br><br>
+        <input id="get-name" type="submit" name="" value="Generate name">
+        <br><br>
+      </form>
+      <form onsubmit="return clearInput()">
+        <input class="clear" type="submit" value="Clear input">
       </form>
 
     </div>
