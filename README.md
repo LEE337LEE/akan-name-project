@@ -12,6 +12,10 @@ No bugs thus far
 * HTML
 * CSS
 * JavaScript
+## Behaviour Driven Development
+* BDD  allows us to provide validation criteria that restricts userd from entering invalid birthdays.
+* BDD also allows us to prevent users from entering words in place of numbers
+* Acknowledging that all loopholes cannot be sealed with the first attempt BDD will assit us in making a friendlier interface. 
 ## Support and contact details
 PLease feel free to call the number on the contact section (0717523020).
 Or send me an email via leegithinji@gmail.com
